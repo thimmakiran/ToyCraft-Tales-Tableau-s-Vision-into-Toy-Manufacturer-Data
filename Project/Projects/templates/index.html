@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ToyCraft Tales</title>
+
+<!-- CSS LINK -->
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2>ToyCraft Tales</h2>
+
+<div>
+<a href="/">Home</a>
+<a href="/about">About</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/story">Story</a>
+</div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+<!-- LEFT SIDE TEXT -->
+<div class="hero-text">
+
+<h1>
+ToyCraft Tales:<br>
+Tableau's Vision into Toy Manufacturer Data
+</h1>
+
+<!-- ✅ GET STARTED BUTTON -->
+<a href="/dashboard" class="btn-start">Get Started</a>
+
+</div>
+
+<!-- RIGHT SIDE IMAGE -->
+<div class="hero-image">
+<img src="{{ url_for('static', filename='toy.jpg') }}" alt="Toy Image">
+</div>
+
+</section>
+
+</body>
+</html>
